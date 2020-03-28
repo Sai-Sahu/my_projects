@@ -1,0 +1,82 @@
+greek hand written alphabets recognition to know what exactly it is.
+project_30
+github link:
+github bitly link: 
+
+
+symbols that are trained to this model
+--------------------------------------
+0_alpha
+1_beta
+2_gamma
+3_delta
+4_eta
+5_theta
+6_sigma
+7_pi
+8_phi
+
+procedure followed for building this project
+--------------------------------------------
+1. starting trials
+	trial codes for imporing and transforming the images.
+
+2. importing images to python environment
+	in this step, images are imported from respective folders and then 
+	1. resized to 30X30 pixels
+	2. images horizontaly stretched
+	3. images vertically stretched
+	4. images clockwise rotated to 15 degree
+	5. images anticlockwise rotated to 15 degree
+	this was done to create more examples. This is called image augmentation.
+	all kinds of images to stored to an array as features
+	another label array was made to label the features. as this is a supervised learning process.
+
+3. convert images and labels to pandas data frame
+	in this step features and label arrays are converted to pandas data frame as columns to be 
+	properly shuffled.
+
+4. shuffling the feature-label rows
+	feature-label rows are shuffled and reindexed to create a shuffled data-frame.
+
+5. vizualizing the features and labels
+	to check whether the features got correct labels or not and how our features(both stored images and 
+	transformed images) look like.
+
+6. train test split and converting features to tensors
+	feature-labels are splited to train and test split to train and test the model.
+	pandas feature column was converted to a tensor as tensors arre flexible and usable by
+	mathematical operations and also tensorflow.keras models uses tensors as input.
+
+7. buildng the neural network model
+	neural network was build with tensorflow.keras
+	1st layer to flatten the 3 dimensional images to a straight 1 dimensional array.
+	2nd layer with 'relu' activation
+	3rd layer as output layer
+	'SparseCategoricalCrossentropy' was used as loss function
+	adam gradient descent was used as optimizer 
+	hyper parameter 'learning rate' was fixed.
+	now the model is ready to be trained.
+
+8. training the model
+	model was trained with 300 epochs.
+	model was saved as name 'greek_symbol_recognition.h5'
+
+9. testing the model
+	model was imported.
+	tested on test split.
+	accuracy score was taken as evaluation accuracy.
+	models accuracy tirned out to be 0.9171597633136095
+
+10. using the model
+	all images to be predicted were stored in 'data_source/test/' folder
+	all required library was imported.
+	images are imported and passed through same pipe line as in training.
+	model was imported.
+	images passed.
+	model did the prediction.
+
+	
+
+
+
