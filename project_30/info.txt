@@ -1,7 +1,7 @@
 greek hand written alphabets recognition to know what exactly it is.
 project_30
-github link:
-github bitly link: 
+github link: https://github.com/Sai-Sahu/my_projects/tree/master/project_30
+github bitly link: https://bit.ly/2wAJHnT
 
 
 symbols that are trained to this model
