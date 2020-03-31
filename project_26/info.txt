@@ -1,0 +1,5 @@
+credit card default classification.
+project_26
+dataset link: https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset
+git_hub link: 
+github bitly link: 
