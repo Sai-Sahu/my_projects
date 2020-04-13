@@ -1,4 +1,4 @@
 a regression model to predict the monthly income of an employee.
 project_19
-git_hub_link: 
-git_hub_bitly_link: 
+git_hub_link: https://github.com/Sai-Sahu/my_projects/tree/master/project_19
+git_hub_bitly_link: https://bit.ly/2wzhbCS
