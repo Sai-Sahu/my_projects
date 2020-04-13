@@ -1,0 +1,4 @@
+a regression model to predict the monthly income of an employee.
+project_19
+git_hub_link: 
+git_hub_bitly_link: 
