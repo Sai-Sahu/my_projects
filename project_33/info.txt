@@ -1,4 +1,4 @@
 detect a set of greek alphabets contained in an image or not.
 project_33
-git_hub_link:
-git_hub_bitly_link:
+git_hub_link: https://github.com/Sai-Sahu/my_projects/tree/master/project_33
+git_hub_bitly_link: https://bit.ly/34u6vlE
