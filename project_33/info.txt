@@ -1,0 +1,4 @@
+detect a set of greek alphabets contained in an image or not.
+project_33
+git_hub_link:
+git_hub_bitly_link:
