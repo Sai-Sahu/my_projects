@@ -1,0 +1,88 @@
+complete data science/machine learning/ai algorithm
+---------------------------------------------------
+
+#1. understand the problem of the situation.
+#2. self reinforncement for collecting the data.
+	#2.1. exploratory data analysis
+		#2.1.1. mean, meadian, mode, range, distribution - of each column
+		#2.2.2. correlation matrix - of the whole data frame
+#3. preprocessing the data
+	#3.1. outlier dealing
+		#3.1.1. remove the outliers - 
+		#3.1.2. clip and floor the outliers - 
+	#3.2. nan dealing
+		#3.2.1 drop the columns containing nan - 
+		#3.2.2 drop the rows containg nan -
+		#3.2.3 replace the nan values
+			#3.2.3.1. replace by mean -
+			#3.2.3.2. replace by median -
+			#3.2.3.3. replace by mode -
+	#3.3. scaling
+		#3.3.1. normalization
+		#3.3.2. standadization
+	#3.4. transfered feature making
+#4. dimensionality reduction
+	#4.1 principal component analysis -
+		#4.1.1. how many principal componets to take
+#5. regression(evaluation-mean squred error, root mean squred error)
+	#5.1. linear regression
+		#5.1.1. lasso or ridge regularization
+		#5.1.2. what is the value of coefficient of regularization
+	#5.2. decision tree regression
+	#5.3. random forest regression
+	#5.4. neural network
+		#5.4.1. how many layers
+		#5.4.2. how many neurons in which layer
+		#5.4.3. which activation function to use
+#6. clustering
+	#6.1. k means clustering
+		#6.1.1. what will be the value of k
+	#6.2. density based clustering
+		#6.2.1. minimum number of points
+		#6.2.2. redius of the circle
+	#6.3. hierarchial clustering
+		#6.3.1. upto how much depth to take clusters
+#7. classification(evaluation-classification accuracy, precission, recall, auc)
+	#7.1. logistic regression
+		#7.1.1. lasso or ridge regularization
+		#7.1.1. what is the value of coefficient of regularization
+	#7.2. decision tree
+		#7.2.1. max depth of tree
+		#7.2.2. min number of samples to split a node
+		#7.2.3. min impurity to split a tree
+	#7.3. random forest
+		#7.3.1. number of features selected per round
+		#7.3.2. max depth of tree
+		#7.3.3. min number of samples to split a node
+		#7.3.4. min impurity to split a tree
+	#7.4. k nearest neighbour
+		#7.4. what will be the value of k
+	#7.5. naive bayes
+	#7.6. support vector machines
+		#7.6.1. which kernel to use
+		#7.6.1. what is the value of the coefficient of regularization
+	#7.7. neural network
+		#7.7.1. how many layers
+		#7.7.2. how many neurons in which layer
+		#7.7.3. which activation function to use
+		#7.7.4. which objective function to use
+		#7.7.5. which gradient descent optimization function to use
+		#7.7.5. what will be the learning rate
+#8. model selection
+#9. building a pipeline for the model
+#10. Write some hand coded set of rules for futher processing.
+#11. model deployment
+	#10.1. a front end - html, css, js, bootstrap
+	#10.2. a data sending protocol - ajax, http
+	#10.3. a backend for the model to work - python django
+	#10.4. sending back the result of the model to user - ajax, http
+
+
+
+
+
+
+
+
+
+
